@@ -1,0 +1,147 @@
+		#wrapper
+		{
+			width: 1000px;
+			height: 750px;
+			background-color: white;
+		}
+
+		#header
+		{
+			width: 900px;
+			border: 1px solid #000000;
+			margin: 14px 49px 10px 49px;
+			height: 90px;
+			float: left;
+			background-color: #FFA7CC;
+		}
+
+		#menu
+		{
+			border: 1px solid #000000;
+			width: 198px;
+			height: 516px;
+			float: left;
+			margin-left: 49px;
+			background-color: #FFA7CC;
+		}
+
+		#content
+		{
+			margin: 0px 0px 0px 10px;
+			border-left: 1px solid #000000;
+			border-top: 1px solid #000000;
+			border-bottom: 1px solid #000000;
+			width: 491px;
+			height: 516px;
+			float: left;
+			background-color: #4F2C3D;
+		}
+
+		#side
+		{
+			border: 1px solid #000000;
+			width: 198px;
+			height: 516px;
+			float: left;
+			background-color: #63364c;
+		}
+
+		#menugal
+		{
+			border: 1px solid #000000;
+			width: 198px;
+			height: 800px;
+			float: left;
+			margin-left: 49px;
+			background-color: #FFA7CC;
+		}
+
+		#contentgal
+		{
+			margin: 0px 0px 0px 10px;
+			border-left: 1px solid #000000;
+			border-top: 1px solid #000000;
+			border-bottom: 1px solid #000000;
+			width: 491px;
+			height: 800px;
+			float: left;
+			background-color: #4F2C3D;
+		}
+
+		#sidegal
+		{
+			border: 1px solid #000000;
+			width: 198px;
+			height: 800px;
+			float: left;
+			background-color: #63364c;
+		}
+
+		#footer
+		{
+			width: 900px;
+			border: 1px solid #000000;
+			margin: 10px 49px 0px 49px;
+			height: 90px;
+			float: left;
+			background-color: yellow;
+		}
+
+		#sidetitle
+		{
+			font-size: medium;
+
+		}
+
+		#kanyemiddle
+		{
+			margin-left: 101px;
+
+		}
+
+		h3
+		{
+			color: purple;
+
+		}
+
+		h2
+		{
+			color: #F5E2EE;
+
+		}
+
+		p
+		{
+			color: #F5E2EE
+
+		}
+
+		h1
+		{
+			color: purple;
+
+		}
+
+		#menulist
+		{
+			list-style: none;
+			color: purple;
+		}
+
+		ol
+		{
+			color: #F5E2EE
+
+		}
+
+		ul
+		{
+			color: #F5E2EE
+
+		}
+
+		a
+		{
+			Color: purple;
+		}
