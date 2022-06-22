@@ -2,7 +2,7 @@
 		{
 			width: 1000px;
 			height: 750px;
-			background-color: black;
+			background-color: white;
 		}
 
 		#header
@@ -12,7 +12,7 @@
 			margin: 14px 49px 10px 49px;
 			height: 90px;
 			float: left;
-			background-color: #FFA7CC;
+			background-color: #000000;
 		}
 
 		#menu
