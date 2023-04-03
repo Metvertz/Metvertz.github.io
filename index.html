@@ -1,57 +1,70 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
-	<title>Mitchell's website</title>
-	
-	<style type="text/css" media="screen">
-	
-		body {
-			line-height: 140%;
-			margin: auto;
-			width: 800px;
-			bgcolor: "000E2F";
-			text: "FFFFFF"
-		}
-		code {font-size: 120%;}
-		
-		.div-1 {
-			  background-color: blue; 
-			  height: 50px;
-			  width: 50px;
-			}
-   
-		.div-2 {
-			  background-color: red; 
-			  height: 100px;
-			  width: 100px;
-			}
-
-	</style>
-	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
-	<body>
-		<div>
-			<!--first div is the stuff up top-->
-			<h1>MY WEBSITE</h1>
-			<p> this is my website it's really cool</p>
-			<br>
-			<strong>insert gif of squirrel dancing</strong>
-			<br>
-			<br>
-		</div>
-		<div>
-			<!--second div is the stuff below-->
-			<h1>The Second Part</h1>
-			<p>credits to matthew for the cool blue color, thumbs up emoji times 10</p>
-			<br>
-			<IMG SRC="https://media.tenor.com/GrbnmOIa31gAAAAC/dancing-squirrel.gif">
-			<a href="/Mitchell's Resume 2022.pdf">My Resume</a>
-  </body>
-		</div>
-			
-	</body>
-
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <h2>Job Title</h2>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h3>About</h3>
+            <p>Introduce yourself and your professional background briefly.</p>
+        </section>
+        <section id="education">
+            <h3>Education</h3>
+            <ul>
+                <li>
+                    <h4>College/University Name</h4>
+                    <p>Degree, Major - Graduation Year</p>
+                </li>
+                <!-- Add more education items as necessary -->
+            </ul>
+        </section>
+        <section id="experience">
+            <h3>Experience</h3>
+            <ul>
+                <li>
+                    <h4>Job Title - Company Name</h4>
+                    <p>Dates Employed</p>
+                    <ul>
+                        <li>Job responsibility or accomplishment 1</li>
+                        <li>Job responsibility or accomplishment 2</li>
+                        <!-- Add more responsibilities or accomplishments as necessary -->
+                    </ul>
+                </li>
+                <!-- Add more experience items as necessary -->
+            </ul>
+        </section>
+        <section id="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <!-- Add more skills as necessary -->
+            </ul>
+        </section>
+        <section id="contact">
+            <h3>Contact</h3>
+            <p>Email: your.email@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">https://www.linkedin.com/in/your-linkedin-profile</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Your Name 2023. All rights reserved.</p>
+    </footer>
+</body>
 </html>
