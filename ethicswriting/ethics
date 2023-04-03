@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethics - Mitchell's Personal Website</title>
+    <link rel="stylesheet" href=".\css\mainstyle.css">
+</head>
+<body>
+    <header>
+        <div class="profile-picture">
+            <img src=".\images\mainpic.png" alt="Mitchell Everetts" />
+        </div>
+        <h1>Mitchell Everetts</h1>
+        <h2>Willamette University CS, DS, Math Major</h2>
+        <p>Welcome to my personal website! it's still very much a work in progress but stay tuned for future development!</p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/mitchell-everetts/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Metvertz" target="_blank">GitHub</a>
+            <!-- Add more social media or reference links as necessary -->
+        </div>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href=".\resume.pdf">Resume</a>
+        <a href="#contact">Contact</a>
+        <a href="ethics.html">Ethics</a>
+    </nav>
+    <main>
+        <section id="ethics">
+            <h2>Ethics Papers</h2>
+            <ul>
+                <li><a href="papers/paper1.pdf" target="_blank">Paper 1</a></li>
+                <li><a href="papers/paper2.pdf" target="_blank">Paper 2</a></li>
+                <li><a href="papers/paper3.pdf" target="_blank">Paper 3</a></li>
+                <!-- Add more papers as necessary -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Mitchell Everetts 2023. All rights reserved.</p>
+    </footer>
+    <script src="colors.js"></script>
+</body>
+</html>
