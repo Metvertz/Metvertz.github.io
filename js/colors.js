@@ -1,16 +1,16 @@
 const colorThemes = [
   {
+    primary: "#28a745",
+    secondary: "#f4f4f4",
+    text: "#fff",
+  },
+  {
     primary: "#333",
     secondary: "#f4f4f4",
     text: "#fff",
   },
   {
     primary: "#1e90ff",
-    secondary: "#f4f4f4",
-    text: "#fff",
-  },
-  {
-    primary: "#28a745",
     secondary: "#f4f4f4",
     text: "#fff",
   },
